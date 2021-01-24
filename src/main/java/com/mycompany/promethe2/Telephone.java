@@ -11,56 +11,68 @@ package com.mycompany.promethe2;
  */
 public class Telephone {
     
-    private int prix;
-    private int espace;
-    private int camera;
-    private int look;
+    private double prix;
+    private double espace;
+    private double camera;
+    private double look;
 
+    
+    
     public Telephone() {
     }
-    
-    
 
-    public Telephone(int prix, int espace, int camera, int look) {
+    public Telephone(double prix, double espace, double camera, double look) {
         this.prix = prix;
         this.espace = espace;
         this.camera = camera;
         this.look = look;
     }
 
-    public int getPrix() {
+    public double getPrix() {
         return prix;
     }
 
-    public void setPrix(int prix) {
+    public void setPrix(double prix) {
         this.prix = prix;
     }
 
-    public int getEspace() {
+    public double getEspace() {
         return espace;
     }
 
-    public void setEspace(int espace) {
+    public void setEspace(double espace) {
         this.espace = espace;
     }
 
-    public int getCamera() {
+    public double getCamera() {
         return camera;
     }
 
-    public void setCamera(int camera) {
+    public void setCamera(double camera) {
         this.camera = camera;
     }
 
-    public int getLook() {
+    public double getLook() {
         return look;
     }
 
-    public void setLook(int look) {
+    public void setLook(double look) {
         this.look = look;
+    }
+
+    @Override
+    public String toString() {
+        return "Telephone{" + "prix=" + prix + ", espace=" + espace + ", camera=" + camera + ", look=" + look + '}';
     }
     
     
     
     
+    
+    
+    
+    
+    
+    
+       
 }

@@ -25,8 +25,8 @@ public class Main {
         tableau.add(new Telephone(300,32,16,4));
         tableau.add(new Telephone(275,32,8,2));
         
-        ArrayList<Telephone>tel = Algorithme.normalisation(tableau);
-        
+        ArrayList<Telephone>MatriceNormalisee = Algorithme.normalisation(tableau);
+        ArrayList<Telephone>MatriceDifferences= Algorithme.calculDifference(MatriceNormalisee);
  
         
         
