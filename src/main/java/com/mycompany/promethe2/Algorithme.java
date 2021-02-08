@@ -24,6 +24,7 @@ public class Algorithme {
     
     // etape 1
     public static ArrayList normalisation(ArrayList<Telephone> matriceInitiale){
+        System.out.println("Normalisation :");
         ArrayList<Telephone> MatriceNormalise=new ArrayList<>();
         
       
